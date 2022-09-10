@@ -1,6 +1,6 @@
-ro.display.series=Moto G60
-ro.product.board=sm6150
-ro.board.platform=sm6150
+ro.display.series=Moto G30
+ro.product.board=sm6115
+ro.board.platform=sm6115
 vendor.gatekeeper.disable_spu=true
 ro.adb.secure=0
 fbe.metadata.wrappedkey=true

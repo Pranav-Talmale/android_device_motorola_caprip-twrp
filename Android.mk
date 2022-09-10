@@ -25,10 +25,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),hanoip)
-
-include $(call all-makefiles-under,$(LOCAL_PATH))
-
-include $(CLEAR_VARS)
-
+ifeq ($(TARGET_DEVICE),caprip)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
